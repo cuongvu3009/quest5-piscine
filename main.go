@@ -1,14 +1,12 @@
 package main
 
 import (
-	"github.com/01-edu/z01"
-
-	"piscine"
+	"github.com/cuongvu3009/quest5-piscine/piscine"
 )
 
 func main() {
-	z01.PrintRune(piscine.FirstRune("Hello!"))
-	z01.PrintRune(piscine.FirstRune("Salut!"))
-	z01.PrintRune(piscine.FirstRune("Ola!"))
-	z01.PrintRune('\n')
+	piscine.PrintNbrInOrder(321)
+	piscine.PrintNbrInOrder(0)
+	piscine.PrintNbrInOrder(321)
+
 }
