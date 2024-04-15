@@ -1,4 +1,6 @@
-// Write a function that returns a concatenated string from the 'strings' passed as arguments.
+// Write a function that capitalizes the first letter of each word and lowercases the rest.
+
+// A word is a sequence of alphanumeric characters.
 
 package piscine
 
